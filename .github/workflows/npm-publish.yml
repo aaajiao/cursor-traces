@@ -20,7 +20,7 @@ jobs:
       
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version-file: '.node-version'
           # 👇 关键点 1：告诉 action 我们要发包到 npmjs.org
           registry-url: 'https://registry.npmjs.org'
 
